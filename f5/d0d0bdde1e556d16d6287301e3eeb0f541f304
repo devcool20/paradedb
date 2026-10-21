@@ -1,0 +1,26 @@
+docs/reference/aggregates/limitations.mdx
+  h_19ce13e54ae879 152
+docs/reference/joins/overview.mdx
+  h_19ce13e54ae879 370-379
+pg_search/src/postgres/customscan/aggregatescan/datafusion_build.rs
+  h_19ce13e54ae879 1934-1942,1944-1948,1979-1985,1987-2009
+pg_search/src/postgres/customscan/aggregatescan/join_targetlist.rs
+  h_19ce13e54ae879 962-968
+pg_search/src/postgres/customscan/joinscan/build.rs
+  h_19ce13e54ae879 1696-1717
+pg_search/src/postgres/customscan/joinscan/mod.rs
+  h_19ce13e54ae879 684-688,700-708,717,719-722,724-745
+pg_search/src/postgres/customscan/pullup.rs
+  h_19ce13e54ae879 201-203,228
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "f5d0d0bdde1e556d16d6287301e3eeb0f541f304",
+  "prompts": {},
+  "humans": {
+    "h_19ce13e54ae879": {
+      "author": "devcool20 <sharmadivyanshu265@gmail.com>"
+    }
+  }
+}
