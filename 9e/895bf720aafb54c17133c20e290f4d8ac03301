@@ -1,0 +1,21 @@
+pg_search/src/query/pdb_query.rs
+  s_f2770f3a6879b6::t_38ca2a2d57206b 2395
+tests/tests/index_config.rs
+  s_f2770f3a6879b6::t_38ca2a2d57206b 598
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "9e895bf720aafb54c17133c20e290f4d8ac03301",
+  "prompts": {},
+  "sessions": {
+    "s_f2770f3a6879b6": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a15d50-1101-7db2-bdad-bc4b604b5a0e",
+        "model": "gpt-6-luna"
+      },
+      "human_author": "devcool20 <sharmadivyanshu265@gmail.com>"
+    }
+  }
+}
