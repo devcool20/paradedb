@@ -1,0 +1,22 @@
+pg_search/src/query/mod.rs
+  s_f2770f3a6879b6::t_111c839a441e97 1117,1126,1187,1196
+pg_search/src/query/pdb_query.rs
+  s_f2770f3a6879b6::t_111c839a441e97 25,1607-1625
+  s_f2770f3a6879b6::t_21f02b4c1b3e25 1626-1665
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "508797a66c1dbc440de20508da7163a3df212e74",
+  "prompts": {},
+  "sessions": {
+    "s_f2770f3a6879b6": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a15d50-1101-7db2-bdad-bc4b604b5a0e",
+        "model": "gpt-6-sol"
+      },
+      "human_author": "devcool20 <sharmadivyanshu265@gmail.com>"
+    }
+  }
+}
