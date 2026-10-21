@@ -1,0 +1,16 @@
+pg_search/src/query/pdb_query.rs
+  h_19ce13e54ae879 2396
+tests/tests/index_config.rs
+  h_19ce13e54ae879 595-596,598
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "22523d7a1bd1b755932f5c54c70c1a23cabb3979",
+  "prompts": {},
+  "humans": {
+    "h_19ce13e54ae879": {
+      "author": "devcool20 <sharmadivyanshu265@gmail.com>"
+    }
+  }
+}
