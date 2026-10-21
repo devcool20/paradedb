@@ -1,0 +1,14 @@
+nix/pg_search.nix
+  h_19ce13e54ae879 68
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "ede63a95e42320ef4e8bb279016006c9d7b9967f",
+  "prompts": {},
+  "humans": {
+    "h_19ce13e54ae879": {
+      "author": "devcool20 <sharmadivyanshu265@gmail.com>"
+    }
+  }
+}
