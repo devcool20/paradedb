@@ -1,0 +1,138 @@
+.github/actions/test-pg_search-upgrade/range_tokenizers/queries.sql
+  h_19ce13e54ae879 1-41
+.github/actions/test-pg_search-upgrade/range_tokenizers/setup.sql
+  h_19ce13e54ae879 1-14
+.github/workflows/publish-pg_search-debian.yml
+  h_19ce13e54ae879 42
+.github/workflows/publish-pg_search-schema.yml
+  h_19ce13e54ae879 41
+.github/workflows/publish-pg_search-ubuntu.yml
+  h_19ce13e54ae879 40
+CONTRIBUTING.md
+  h_19ce13e54ae879 126-128
+Cargo.lock
+  h_19ce13e54ae879 6236,6238,7948,7950
+docs/project/changelog/unreleased/6921.performance.mdx
+  h_19ce13e54ae879 1-5
+docs/project/changelog/unreleased/6921.stability.mdx
+  h_19ce13e54ae879 1-5
+docs/project/changelog/unreleased/6940.stability.mdx
+  h_19ce13e54ae879 1-5
+docs/reference/aggregates/limitations.mdx
+  h_19ce13e54ae879 125
+nix/pg_search.nix
+  h_19ce13e54ae879 68
+pg_search/README.md
+  h_19ce13e54ae879 102-105
+pg_search/src/index/directory/mvcc.rs
+  h_19ce13e54ae879 1017-1018,1021
+pg_search/src/index/search.rs
+  h_19ce13e54ae879 19,71-74
+pg_search/src/lib.rs
+  h_19ce13e54ae879 120-123,153-155
+pg_search/src/postgres/customscan/aggregatescan/build.rs
+  h_19ce13e54ae879 500-502,534-535,538-539,555-561
+pg_search/src/postgres/customscan/aggregatescan/datafusion_exec.rs
+  h_19ce13e54ae879 1522
+pg_search/src/postgres/customscan/aggregatescan/mod.rs
+  h_19ce13e54ae879 1947-1950,2026-2029,2860-2866,2913-2946,2951-2952,2975,2998-3000,3013,3018
+pg_search/src/postgres/customscan/aggregatescan/privdat.rs
+  h_19ce13e54ae879 205-206,228-230
+pg_search/src/postgres/customscan/basescan/exec_methods/fast_fields/columnar.rs
+  h_19ce13e54ae879 56-62
+pg_search/src/postgres/customscan/joinscan/planning.rs
+  h_19ce13e54ae879 29,36,880,894,901,924,938,2292-2297,2299,2582,2606
+pg_search/src/postgres/customscan/mod.rs
+  h_19ce13e54ae879 70,386-410,412-413
+pg_search/src/postgres/customscan/orderby.rs
+  h_19ce13e54ae879 42,133
+pg_search/src/postgres/customscan/projections.rs
+  h_19ce13e54ae879 37,43-48
+pg_search/src/postgres/utils.rs
+  h_19ce13e54ae879 656
+pg_search/src/query/proximity/mod.rs
+  h_19ce13e54ae879 138-141
+pg_search/src/scan/execution_plan.rs
+  h_19ce13e54ae879 71,1406-1411
+pg_search/tests/pg_regress/expected/aggregate_datafusion_routing.out
+  h_19ce13e54ae879 121-122,124-137,143-144,146-159,188-218
+pg_search/tests/pg_regress/expected/aggregate_dependent_column.out
+  h_19ce13e54ae879 135-136,139,141-153,180-181,184,186-198,227-228,231-242,268-269,272,274-286,397-398,401,403-412,437-438,441,443-452,477-478,481,483-495
+pg_search/tests/pg_regress/expected/aggregate_join_fallback.out
+  h_19ce13e54ae879 523-524,527,529-544
+pg_search/tests/pg_regress/expected/aggregate_join_multicolumn_topk.out
+  h_19ce13e54ae879 1-453
+pg_search/tests/pg_regress/expected/aggregate_join_topk.out
+  h_19ce13e54ae879 102-103,106,108-120,147-148,151,153-165,270-271,274,276-288,441-442,444-457,539-540,542-555
+pg_search/tests/pg_regress/expected/aggregate_limit_under_distinct.out
+  h_19ce13e54ae879 1-256
+pg_search/tests/pg_regress/expected/aggregate_pinned_group_key.out
+  h_19ce13e54ae879 421-422,425,427-440,557-558,561,563-572,2333-2334,2336-2346,2371-2372,2374-2386
+pg_search/tests/pg_regress/expected/aggregate_single_table_datafusion.out
+  h_19ce13e54ae879 181-182,185-196,419-420,423,425-434
+pg_search/tests/pg_regress/expected/aggregate_topk.out
+  h_19ce13e54ae879 27-28,31,33-45,72-73,76,78-90,115-116,119,121-133,216-217,220,222-234,259-260,263,265-277
+pg_search/tests/pg_regress/expected/alias_quoted_mixed_case.out
+  h_19ce13e54ae879 256-257,259-275
+pg_search/tests/pg_regress/expected/datetime_date_pushdown.out
+  h_19ce13e54ae879 164-165,168,170-179
+pg_search/tests/pg_regress/expected/deferred_fetch_decode.out
+  h_19ce13e54ae879 295-296,299,301-315,547-548,551,553-566
+pg_search/tests/pg_regress/expected/groupby_aggregate.out
+  h_19ce13e54ae879 690-691,694,696-705,887-888,891,893-902,927-928,931,933-942
+pg_search/tests/pg_regress/expected/groupby_aggregate_highcard.out
+  h_19ce13e54ae879 46-47,49-59,68-69,71-81,127-128,130-140
+pg_search/tests/pg_regress/expected/issue_3050.out
+  h_19ce13e54ae879 20-21,23-33
+pg_search/tests/pg_regress/expected/issue_3678.out
+  h_19ce13e54ae879 89,120,140,159
+pg_search/tests/pg_regress/expected/issue_3827.out
+  h_19ce13e54ae879 44
+pg_search/tests/pg_regress/expected/issue_6576.out
+  h_19ce13e54ae879 513-561
+pg_search/tests/pg_regress/expected/join_distinct.out
+  h_19ce13e54ae879 921-922,924-939,1047-1048,1050-1062
+pg_search/tests/pg_regress/expected/join_lateral_unnest.out
+  h_19ce13e54ae879 443-444,446-465,488-549
+pg_search/tests/pg_regress/expected/json_groupby_orderby_limit.out
+  h_19ce13e54ae879 70-71,74,76-85
+pg_search/tests/pg_regress/expected/late_materialization_placement.out
+  h_19ce13e54ae879 519-520,523,525-537,561-562,565,567-582,753-754,757,759-772,799-800,803,805-817,989-990,993,995-1025
+pg_search/tests/pg_regress/expected/mpp_aggregate.out
+  h_19ce13e54ae879 100-101,104,106-118,323-324,327,329-359
+pg_search/tests/pg_regress/expected/mpp_aggregate_date.out
+  h_19ce13e54ae879 139-140,143,145-166
+pg_search/tests/pg_regress/expected/mpp_aggregate_partition_by.out
+  h_19ce13e54ae879 109-110,113,115-142
+pg_search/tests/pg_regress/expected/mpp_aggregate_postagg.out
+  h_19ce13e54ae879 186-187,190,192-223,272-273,276,278-310
+pg_search/tests/pg_regress/expected/mpp_joinscan.out
+  h_19ce13e54ae879 520-521,524,526-553
+pg_search/tests/pg_regress/expected/numeric_aggregate.out
+  h_19ce13e54ae879 295-296,299,301-310,329-330,333,335-344,466-467,470,472-493
+pg_search/tests/pg_regress/expected/select_distinct.out
+  h_19ce13e54ae879 141-142,144-153,960-961,963-975
+pg_search/tests/pg_regress/expected/text_field_agg_regression.out
+  h_19ce13e54ae879 39-40,42-53,84-85,87,89-101
+pg_search/tests/pg_regress/sql/aggregate_datafusion_routing.sql
+  h_19ce13e54ae879 84-93
+pg_search/tests/pg_regress/sql/aggregate_join_multicolumn_topk.sql
+  h_19ce13e54ae879 1-249
+pg_search/tests/pg_regress/sql/aggregate_limit_under_distinct.sql
+  h_19ce13e54ae879 1-156
+pg_search/tests/pg_regress/sql/issue_6576.sql
+  h_19ce13e54ae879 203-217
+pg_search/tests/pg_regress/sql/join_lateral_unnest.sql
+  h_19ce13e54ae879 307-340
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "964c73d51fd43d1705430c6e8deba78bf2346498",
+  "prompts": {},
+  "humans": {
+    "h_19ce13e54ae879": {
+      "author": "devcool20 <sharmadivyanshu265@gmail.com>"
+    }
+  }
+}
