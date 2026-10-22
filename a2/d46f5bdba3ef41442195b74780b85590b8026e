@@ -1,0 +1,158 @@
+Cargo.lock
+  h_19ce13e54ae879 2068,4892,5043,6866-6878,6970,7008,7030,7038,7053,7086,7095,7107,7120,7157
+Cargo.toml
+  h_19ce13e54ae879 72,81,85-86
+benchmarks/datasets/stackoverflow/queries/join_disjunctive_score_sort_high_selectivity/README.md
+  h_19ce13e54ae879 1,15-30
+benchmarks/datasets/stackoverflow/queries/join_disjunctive_score_sort_high_selectivity/hash_partitioned.sql
+  h_19ce13e54ae879 1,5,7,9,11
+benchmarks/datasets/stackoverflow/queries/join_disjunctive_score_sort_high_selectivity/postgres_early_topk.sql
+  h_19ce13e54ae879 1-102
+benchmarks/datasets/stackoverflow/queries/join_disjunctive_score_sort_high_selectivity/postgres_union_agg.sql
+  h_19ce13e54ae879 1-56
+benchmarks/datasets/stackoverflow/queries/join_disjunctive_score_sort_high_selectivity/range_partitioned.sql
+  h_19ce13e54ae879 1-13
+benchmarks/datasets/stackoverflow/queries/join_disjunctive_score_sort_low_selectivity/README.md
+  h_19ce13e54ae879 1-37
+benchmarks/datasets/stackoverflow/queries/join_disjunctive_score_sort_low_selectivity/hash_partitioned.sql
+  h_19ce13e54ae879 1-13
+benchmarks/datasets/stackoverflow/queries/join_disjunctive_score_sort_low_selectivity/postgres_early_topk.sql
+  h_19ce13e54ae879 1-102
+benchmarks/datasets/stackoverflow/queries/join_disjunctive_score_sort_low_selectivity/postgres_union_agg.sql
+  h_19ce13e54ae879 1-56
+benchmarks/datasets/stackoverflow/queries/join_disjunctive_score_sort_low_selectivity/range_partitioned.sql
+  h_19ce13e54ae879 1-13
+benchmarks/datasets/stackoverflow/queries/join_disjunctive_score_sort_medium_selectivity/README.md
+  h_19ce13e54ae879 1-29
+benchmarks/datasets/stackoverflow/queries/join_disjunctive_score_sort_medium_selectivity/postgres_early_topk.sql
+  h_19ce13e54ae879 1-102
+benchmarks/datasets/stackoverflow/queries/join_disjunctive_score_sort_medium_selectivity/postgres_union_agg.sql
+  h_19ce13e54ae879 1-56
+docs/project/changelog/unreleased/6739.stability.mdx
+  h_19ce13e54ae879 1-5
+docs/project/changelog/unreleased/6803.stability.mdx
+  h_19ce13e54ae879 5
+docs/project/changelog/unreleased/6935.features.mdx
+  h_19ce13e54ae879 1-5
+docs/project/changelog/unreleased/6935.stability.mdx
+  h_19ce13e54ae879 1-5
+docs/project/changelog/unreleased/6949.stability.mdx
+  h_19ce13e54ae879 1-7
+docs/project/changelog/unreleased/6959.stability.mdx
+  h_19ce13e54ae879 1-5
+docs/project/changelog/unreleased/6965.features.mdx
+  h_19ce13e54ae879 1-5
+docs/project/changelog/unreleased/6965.stability.mdx
+  h_19ce13e54ae879 1-5
+docs/project/changelog/unreleased/mpp-worker-idle-interrupt.stability.mdx
+  h_19ce13e54ae879 1-5
+docs/reference/aggregates/limitations.mdx
+  h_19ce13e54ae879 143
+nix/pg_search.nix
+  h_19ce13e54ae879 68
+pg_search/Cargo.toml
+  h_19ce13e54ae879 97-98
+pg_search/src/index/writer/index.rs
+  h_19ce13e54ae879 631-635
+pg_search/src/postgres/build_parallel.rs
+  h_19ce13e54ae879 1062-1070
+pg_search/src/postgres/customscan/aggregatescan/datafusion_build.rs
+  h_19ce13e54ae879 28,111-124,1562,1568,1625-1630,1634,1640,1678,1682-1690,1979,1982,1990,1997-1998,2001,2003,2008,2141-2147,2154-2155,2163
+pg_search/src/postgres/customscan/aggregatescan/datafusion_exec.rs
+  h_19ce13e54ae879 48,72,75-76,633-644,768-788,1274-1276,1283,1304,1309,1473,1475
+pg_search/src/postgres/customscan/aggregatescan/mod.rs
+  h_19ce13e54ae879 1441-1458
+pg_search/src/postgres/customscan/aggregatescan/privdat.rs
+  h_19ce13e54ae879 27,29,34-43,50,61,92-151,155-156,164-165,168-187,189-190,193,196,214-237,240
+pg_search/src/postgres/customscan/basescan/exec_methods/normal.rs
+  h_19ce13e54ae879 107
+pg_search/src/postgres/customscan/datafusion/pdb_agg_udaf.rs
+  h_19ce13e54ae879 850-857
+pg_search/src/postgres/customscan/joinscan/build.rs
+  h_19ce13e54ae879 2073-2076,2079-2083,2091-2095,2142-2154
+pg_search/src/postgres/customscan/joinscan/mod.rs
+  h_19ce13e54ae879 511-532,535-544,617-618,621,676,802-803,813,908,929-939,2257,2273-2277,2336-2341,2421-2423,2659
+pg_search/src/postgres/customscan/joinscan/planning.rs
+  h_19ce13e54ae879 1874-1878,2022,2025,2045-2082,2090,2093-2094,2115-2123,2125-2126,2130,2132,2269-2275,2315-2316,2400-2401,2404,2410,2464-2468,2472-2473,2475-2477,2488-2493,2495,2545-2552,2554-2556,2567,2573,2619,2723,2742-2748,3140,3142-3150,3153
+pg_search/src/postgres/customscan/joinscan/scan_state.rs
+  h_19ce13e54ae879 46-47,64-65,1717-1718,1735-1768,1793,1797
+pg_search/src/postgres/customscan/joinscan/window_func.rs
+  h_19ce13e54ae879 21-23,31,41,47,122-125,128,132,136,249,257-259,345-348,398-399,403,405,419-457,459,461-462,464,471,499-503
+pg_search/src/postgres/customscan/mpp/dispatch.rs
+  h_19ce13e54ae879 22-26,40,55,83-84,90,100,104,109-111,117,119,127,136,181-184,188,236-239
+pg_search/src/postgres/customscan/mpp/exec_worker.rs
+  h_19ce13e54ae879 47-49,57-60,196-197,205-210,233,235-236,239-243,247,252,358-361,372-373,414-427,438-440,478-479,482,486,504-520,543-544
+pg_search/src/postgres/customscan/mpp/launch.rs
+  h_19ce13e54ae879 380-381
+pg_search/src/postgres/customscan/mpp/worker_fragments.rs
+  h_19ce13e54ae879 23-27,32,36-37,49-51,59-63,65,69,72-79,84,91,103,122
+pg_search/src/postgres/delete.rs
+  h_19ce13e54ae879 290-297,399-428
+pg_search/src/postgres/merge.rs
+  h_19ce13e54ae879 560-561
+pg_search/src/query/heap_field_filter.rs
+  h_19ce13e54ae879 47-48,58,63-74,93,160-183
+pg_search/src/scan/execution_plan.rs
+  h_19ce13e54ae879 555-574
+pg_search/src/scan/table_provider.rs
+  h_19ce13e54ae879 301-326
+pg_search/tests/pg_regress/expected/aggregate_join_numeric_filter.out
+  h_19ce13e54ae879 120-248,250
+pg_search/tests/pg_regress/expected/issue_4531.out
+  h_19ce13e54ae879 195-240
+pg_search/tests/pg_regress/expected/issue_6739.out
+  h_19ce13e54ae879 1-140
+pg_search/tests/pg_regress/expected/issue_mpp_aggregate_array_terms_union.out
+  h_19ce13e54ae879 1-791
+pg_search/tests/pg_regress/expected/join_order_by.out
+  h_19ce13e54ae879 304,306-307,321-338,361-528
+pg_search/tests/pg_regress/expected/normal_scan_large_limit.out
+  h_19ce13e54ae879 1-82
+pg_search/tests/pg_regress/expected/pdb_agg_datafusion.out
+  h_19ce13e54ae879 1295-1371,1412,1447
+pg_search/tests/pg_regress/expected/topk-agg-facet.out
+  h_19ce13e54ae879 2314-2982
+pg_search/tests/pg_regress/expected/vector_merge.out
+  h_19ce13e54ae879 112-122,124,132-134
+pg_search/tests/pg_regress/expected/vector_training_options.out
+  h_19ce13e54ae879 9-12
+pg_search/tests/pg_regress/sql/aggregate_join_numeric_filter.sql
+  h_19ce13e54ae879 75-154,156
+pg_search/tests/pg_regress/sql/issue_4531.sql
+  h_19ce13e54ae879 124-145
+pg_search/tests/pg_regress/sql/issue_6739.sql
+  h_19ce13e54ae879 1-92
+pg_search/tests/pg_regress/sql/issue_mpp_aggregate_array_terms_union.sql
+  h_19ce13e54ae879 1-471
+pg_search/tests/pg_regress/sql/join_order_by.sql
+  h_19ce13e54ae879 163,165-166,183-243
+pg_search/tests/pg_regress/sql/normal_scan_large_limit.sql
+  h_19ce13e54ae879 1-45
+pg_search/tests/pg_regress/sql/pdb_agg_datafusion.sql
+  h_19ce13e54ae879 702-750,764,776
+pg_search/tests/pg_regress/sql/topk-agg-facet.sql
+  h_19ce13e54ae879 1238-1561
+pg_search/tests/pg_regress/sql/vector_merge.sql
+  h_19ce13e54ae879 92-97,99
+pg_search/tests/pg_regress/sql/vector_training_options.sql
+  h_19ce13e54ae879 4-7
+tests/src/fixtures/backend.rs
+  h_19ce13e54ae879 35-78
+tests/tests/mpp_cancel.rs
+  h_19ce13e54ae879 136-139,144-145,147,164,171,194,196-197,239,246-268
+tests/tests/mpp_joinscan_concurrent.rs
+  h_19ce13e54ae879 319-327
+tests/tests/window_agg_join.rs
+  h_19ce13e54ae879 23,96-106,112-114,186-328,382-389,395-396,461-521,845-849,859,979-1027,1031-1067,1118-1139,1147-1152,1243-1401,1406-1460
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "a2d46f5bdba3ef41442195b74780b85590b8026e",
+  "prompts": {},
+  "humans": {
+    "h_19ce13e54ae879": {
+      "author": "devcool20 <sharmadivyanshu265@gmail.com>"
+    }
+  }
+}
