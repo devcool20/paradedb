@@ -1,0 +1,22 @@
+docs/reference/aggregates/limitations.mdx
+  h_19ce13e54ae879 152
+pg_search/src/postgres/customscan/aggregatescan/datafusion_build.rs
+  h_19ce13e54ae879 1944-1947
+pg_search/src/postgres/customscan/joinscan/mod.rs
+  h_19ce13e54ae879 684-687
+pg_search/src/postgres/customscan/pullup.rs
+  h_19ce13e54ae879 161
+docs/reference/joins/overview.mdx
+  h_19ce13e54ae879 377-379
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "65657092205f457171cabfa1bbbdce2bc866d7fb",
+  "prompts": {},
+  "humans": {
+    "h_19ce13e54ae879": {
+      "author": "devcool20 <sharmadivyanshu265@gmail.com>"
+    }
+  }
+}
