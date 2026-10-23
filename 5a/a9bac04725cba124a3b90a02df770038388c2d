@@ -1,0 +1,19 @@
+pg_search/src/index/stats/mod.rs
+  s_f2770f3a6879b6::t_a69e9bf8e0dba4 380-383,386-393,522
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "5aa9bac04725cba124a3b90a02df770038388c2d",
+  "prompts": {},
+  "sessions": {
+    "s_f2770f3a6879b6": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a15d50-1101-7db2-bdad-bc4b604b5a0e",
+        "model": "gpt-5.6-terra"
+      },
+      "human_author": "devcool20 <sharmadivyanshu265@gmail.com>"
+    }
+  }
+}
