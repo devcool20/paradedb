@@ -1,0 +1,42 @@
+docs/reference/aggregates/limitations.mdx
+  h_19ce13e54ae879 152
+docs/reference/joins/overview.mdx
+  h_19ce13e54ae879 370-381
+pg_search/src/postgres/customscan/aggregatescan/datafusion_build.rs
+  h_19ce13e54ae879 1839-1868,1928,2057-2073,2188-2276,2329-2340,2380,2387-2398,2427-2439
+pg_search/src/postgres/customscan/aggregatescan/datafusion_exec.rs
+  h_19ce13e54ae879 61,172-173,191-196,1207-1220,1241,1246-1257,1259-1262,1307,1311-1316,1504,1521
+pg_search/src/postgres/customscan/aggregatescan/join_targetlist.rs
+  h_19ce13e54ae879 160-163,953-991,1085
+pg_search/src/postgres/customscan/aggregatescan/privdat.rs
+  h_19ce13e54ae879 40-41,190,275
+pg_search/src/postgres/customscan/datafusion/translator.rs
+  h_19ce13e54ae879 55-60,274-291,343-346,676-684,691-719,725-726,741,840-851,858,975-988
+pg_search/src/postgres/customscan/joinscan/build.rs
+  h_19ce13e54ae879 37,897-910,1694-1715,2441,2443-2480,2483-2500,2502-2532,2535-2536,2538-2544,2547-2635,2638-2642,2644-2742
+pg_search/src/postgres/customscan/joinscan/mod.rs
+  h_19ce13e54ae879 536-545,625,700-766,2159-2165,2175-2186,2661-2668
+pg_search/src/postgres/customscan/joinscan/planning.rs
+  h_19ce13e54ae879 1608-1632,1665-1690,1945-1956
+pg_search/src/postgres/customscan/joinscan/scan_state.rs
+  h_19ce13e54ae879 47,84,253-280,2096
+pg_search/src/postgres/customscan/pullup.rs
+  h_19ce13e54ae879 161-230
+pg_search/src/postgres/utils.rs
+  h_19ce13e54ae879 692-700
+pg_search/tests/pg_regress/expected/join_lateral_unnest.out
+  h_19ce13e54ae879 850-963
+pg_search/tests/pg_regress/sql/join_lateral_unnest.sql
+  h_19ce13e54ae879 507-593
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "059c567785f78b54a75cd6320c415090995f5863",
+  "prompts": {},
+  "humans": {
+    "h_19ce13e54ae879": {
+      "author": "devcool20 <sharmadivyanshu265@gmail.com>"
+    }
+  }
+}
