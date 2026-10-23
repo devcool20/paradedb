@@ -1,0 +1,23 @@
+pg_search/src/postgres/storage/metadata.rs
+  s_5885916b9c6b8e::t_0fda67722f2d29 535-542
+pg_search/src/index/stats/index_wide.rs
+  s_5885916b9c6b8e::t_0fda67722f2d29 172-173,328,330-334,351-361
+pg_search/src/postgres/vacuum.rs
+  s_5885916b9c6b8e::t_0fda67722f2d29 36-41
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "af533754693b8144b1b2893d7945c84506706877",
+  "prompts": {},
+  "sessions": {
+    "s_5885916b9c6b8e": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a16277-5d4c-7142-8a1f-9246f3da9195",
+        "model": "gpt-6-sol"
+      },
+      "human_author": "devcool20 <sharmadivyanshu265@gmail.com>"
+    }
+  }
+}
