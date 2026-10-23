@@ -19,6 +19,7 @@ pg_search/src/index/kdtree.rs
 pg_search/src/index/stats/mod.rs
   s_f2770f3a6879b6::t_4398e01cd09510 32,40,277,432-434,436-452,514-516
   s_f2770f3a6879b6::t_7193878edba558 517
+  s_f2770f3a6879b6::t_9e0da56e01ffbf 380-383,386-393
 pg_search/src/postgres/utils.rs
   s_f2770f3a6879b6::t_b5c5f046d48efb 30,33,49,350,355,1099,1104,1110,1116,1121,1126
 pg_search/src/query/pdb_query.rs
