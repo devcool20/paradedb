@@ -1,0 +1,35 @@
+tests/tests/mutable_toast_vacuum.rs
+  s_560bd9800271ca::t_98406918618b9b 20,27-59,61-62,64-68,77,80,82,84-85,87-88,91
+  s_560bd9800271ca::t_d136e466ef0bb8 71-75
+  s_560bd9800271ca::t_74a9d531ee70aa 24
+pg_search/src/postgres/delete.rs
+  s_560bd9800271ca::t_0e6186413e7721 157-161
+pg_search/src/index/directory/utils.rs
+  s_560bd9800271ca::t_a82ae3f78b2191 394-399,427
+pg_search/src/index/directory/mvcc.rs
+  s_72ca807f5db975::t_327a5e5a0e934f 549-556,586,591-601
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "e2cceea8c746cfac059a6e038e33775db9e9a2fd",
+  "prompts": {},
+  "sessions": {
+    "s_560bd9800271ca": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a16cfd-7250-79e2-b014-e912a818c798",
+        "model": "gpt-6-luna"
+      },
+      "human_author": "devcool20 <sharmadivyanshu265@gmail.com>"
+    },
+    "s_72ca807f5db975": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a16db7-8eaa-7f20-9235-c604275dcfd5",
+        "model": "unknown"
+      },
+      "human_author": "devcool20 <sharmadivyanshu265@gmail.com>"
+    }
+  }
+}
