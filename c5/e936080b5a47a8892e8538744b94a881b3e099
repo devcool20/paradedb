@@ -1,0 +1,19 @@
+.github/workflows/test-pg_search-schema.yml
+  s_ace3b6b77a621a::t_c05d26a20f7192 14-15,19,40,59,76,78-81,132-139
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "c5e936080b5a47a8892e8538744b94a881b3e099",
+  "prompts": {},
+  "sessions": {
+    "s_ace3b6b77a621a": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a169d3-7397-7e50-b196-5e0cd6e4caae",
+        "model": "gpt-6-luna"
+      },
+      "human_author": "devcool20 <sharmadivyanshu265@gmail.com>"
+    }
+  }
+}
