@@ -1,0 +1,20 @@
+tests/tests/qgen.rs
+  s_ace3b6b77a621a::t_080152b8b979e3 969
+  s_ace3b6b77a621a::t_de0eea6d33c6d4 970
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "7c74ee943cd0cde0312ad76a5afb8f782f8588b1",
+  "prompts": {},
+  "sessions": {
+    "s_ace3b6b77a621a": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a169d3-7397-7e50-b196-5e0cd6e4caae",
+        "model": "gpt-6-luna"
+      },
+      "human_author": "devcool20 <sharmadivyanshu265@gmail.com>"
+    }
+  }
+}
