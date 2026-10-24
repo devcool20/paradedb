@@ -1,0 +1,199 @@
+pg_search/src/postgres/storage/metadata.rs
+  s_5885916b9c6b8e::t_6436e5046f54e8 23,286-304,376-392,401,405-406,410,414,566-601
+pg_search/src/postgres/vacuum.rs
+  s_5885916b9c6b8e::t_6436e5046f54e8 35
+.github/scripts/generate_release_notes.py
+  s_5885916b9c6b8e::t_59136f97742ee9 2,4-7,9-51,56-70
+.github/scripts/test_generate_release_notes.py
+  s_5885916b9c6b8e::t_b05ee8dfc3b976 1-53
+.github/workflows/benchmark-pg_search-benchmarker.yml
+  s_5885916b9c6b8e::t_f0f57eb1146b3c 117-120,277-280
+.github/workflows/benchmark-pg_search-queries.yml
+  s_5885916b9c6b8e::t_4b8a073b620560 166
+.github/workflows/benchmark-pg_search-stressgres.yml
+  s_5885916b9c6b8e::t_7b95ec4581a25d 104
+.github/workflows/generate-benchmark-snapshots.yml
+  s_5885916b9c6b8e::t_5c5df90d1dfbbb 90
+.github/workflows/generate-benchmarker-snapshots.yml
+  s_5885916b9c6b8e::t_fdc8d8913623ff 68
+.github/workflows/lint-rust.yml
+  s_5885916b9c6b8e::t_74d98e3926982a 50-53,71
+.github/workflows/publish-github-release.yml
+  s_5885916b9c6b8e::t_4dec05bed0db2e 36,236-245,256
+.github/workflows/publish-pg_search-debian.yml
+  s_5885916b9c6b8e::t_1f0d590169d73f 208-212
+.github/workflows/publish-pg_search-rhel.yml
+  s_5885916b9c6b8e::t_67a96f9e26dc04 229-232
+.github/workflows/publish-pg_search-schema.yml
+  s_5885916b9c6b8e::t_80290e84349067 53-56
+.github/workflows/publish-pg_search-ubuntu.yml
+  s_5885916b9c6b8e::t_93fa1685e54806 209-212
+.github/workflows/publish-stressgres-docker.yml
+  s_5885916b9c6b8e::t_1844ee6e127ac0 39-42
+.github/workflows/test-paradedb-docs.yml
+  s_5885916b9c6b8e::t_4b9ddfa6507ae2 52
+.github/workflows/test-pg_search-antithesis.yml
+  s_5885916b9c6b8e::t_3c63589c5dd2ba 142,277
+.github/workflows/test-pg_search-cloud.yml
+  s_5885916b9c6b8e::t_f0f01e843c684e 46-49
+.github/workflows/test-pg_search-docker.yml
+  s_5885916b9c6b8e::t_85b70afebe6b94 90-93,481-484
+.github/workflows/test-pg_search-schema.yml
+  s_5885916b9c6b8e::t_90e4a002177527 14-15,19,40,59,76,78-81,132-139
+.github/workflows/test-pg_search-upgrade.yml
+  s_5885916b9c6b8e::t_9ff5a96bd4dc95 99,103-105
+.github/workflows/test-pg_search.yml
+  s_5885916b9c6b8e::t_16607eb43e3c07 86
+.github/workflows/test-schemabot.yml
+  s_5885916b9c6b8e::t_b4aa8bb4dc37b4 1-69
+.github/workflows/test-stressgres-docker.yml
+  s_5885916b9c6b8e::t_faf378725abbdf 44
+Cargo.lock
+  s_5885916b9c6b8e::t_152e1b9cc2e93a 886-908,922,1723,1725,2110,2352,2463,2473,2483,3189-3194,3511-3519,3902-3910,3966,4073-4078,4558-4563,5035-5040,5047-5056,5069-5086,5123,5125,5129,5177,5244,5746-5755,5763-5796,5812-5820,6305-6310,6430-6437,7163,7375,8134-8145
+Cargo.toml
+  s_5885916b9c6b8e::t_8d86c4c251de25 8
+docs/project/changelog/unreleased/6740.stability.mdx
+  s_5885916b9c6b8e::t_217cfaec1209a8 1-5
+docs/project/changelog/unreleased/6895.stability.mdx
+  s_5885916b9c6b8e::t_f8c4cd78fbe800 1-5
+nix/pg_search.nix
+  s_5885916b9c6b8e::t_d78abd295cbd07 68
+pg_search/Cargo.toml
+  s_5885916b9c6b8e::t_fe0b77055b49a4 116
+pg_search/src/api/operator.rs
+  s_5885916b9c6b8e::t_e6ecad46c6a3d5 1373-1380,1452,1477,1494,1496-1501,1562,1570-1577,1591-1598
+pg_search/src/api/operator/rewrite.rs
+  s_5885916b9c6b8e::t_18d20864e873ee 181,215,217-222
+pg_search/src/index/writer/index.rs
+  s_5885916b9c6b8e::t_ace02313eed56a 636-637
+pg_search/src/postgres/customscan/aggregatescan/aggregate_type.rs
+  s_5885916b9c6b8e::t_4f6126c88c404e 143-157
+pg_search/src/postgres/customscan/aggregatescan/build.rs
+  s_5885916b9c6b8e::t_56d2afa134316e 34,38,484-491
+pg_search/src/postgres/customscan/aggregatescan/searchquery.rs
+  s_5885916b9c6b8e::t_c88333798d0bf9 30
+pg_search/src/postgres/customscan/basescan/mod.rs
+  s_5885916b9c6b8e::t_8b10b5331867d8 2417
+pg_search/src/postgres/customscan/opexpr.rs
+  s_5885916b9c6b8e::t_efec2bdc87211d 20,33,48-61
+pg_search/src/postgres/customscan/pushdown.rs
+  s_5885916b9c6b8e::t_7fa29074dd4827 23,325-333
+pg_search/src/postgres/delete.rs
+  s_5885916b9c6b8e::t_e5392cdea8eaaa 106,114-116,123,139-140,146-148,162-164
+pg_search/src/postgres/insert.rs
+  s_5885916b9c6b8e::t_8bc95155d1766e 446-449
+pg_search/src/postgres/merge.rs
+  s_5885916b9c6b8e::t_1d937939286323 28,31,88,90-96,100-108,286,305,317,341,344-347,360-363,480,490-491,514,518-519,523-525,530-532,556-558,568,579,593,610
+pg_search/src/postgres/storage/coordination_test.rs
+  s_5885916b9c6b8e::t_192fd47a6c03ad 1-146
+pg_search/src/postgres/storage/merge.rs
+  s_5885916b9c6b8e::t_eb5059b75bf52b 18,53-67,73-74,267,272-285,354-363
+pg_search/src/postgres/storage/mod.rs
+  s_5885916b9c6b8e::t_376c79447cadc9 105-106
+pg_search/tests/merge_cleanup.rs
+  s_5885916b9c6b8e::t_792ff857446e8a 1-533
+pg_search/tests/pg_regress/expected/aggregate_join_multicolumn_topk.out
+  s_5885916b9c6b8e::t_1f80cf89c2dd30 176,187-188
+pg_search/tests/pg_regress/expected/aggregate_join_numeric_filter.out
+  s_5885916b9c6b8e::t_02e8d0184dec4e 120,130
+pg_search/tests/pg_regress/expected/aggregate_pinned_group_key.out
+  s_5885916b9c6b8e::t_ffd2ccd6fc5817 1039-1040,1051-1053,1075-1076,1084-1086,1355-1356,1366
+pg_search/tests/pg_regress/expected/aliased_text_expression_topk_orderby.out
+  s_5885916b9c6b8e::t_30a6b759c66a5c 88,107
+pg_search/tests/pg_regress/expected/basescan_join_qual_fallback.out
+  s_5885916b9c6b8e::t_34414b385f123d 17,25,115,122,169,176
+pg_search/tests/pg_regress/expected/columnar_defaults.out
+  s_5885916b9c6b8e::t_a52e8e5b753479 70
+pg_search/tests/pg_regress/expected/index_only_scan.out
+  s_5885916b9c6b8e::t_945128c0cd4f82 31-32,39-40,58-59,66-67,81-82,88-89,95-96,104-105,120-121,134-135,141-142,158-159,195-196,213-214,227-228,238-239,252-253,266-267,284-285,304-305,369-370,389-390,407-408,430-431,451-452,466-467
+pg_search/tests/pg_regress/expected/issue_4643.out
+  s_5885916b9c6b8e::t_79d5f0af061e02 64,70,96,101,461,467,515,520,553,559
+pg_search/tests/pg_regress/expected/issue_5108.out
+  s_5885916b9c6b8e::t_81951c720b5ed1 636,676
+pg_search/tests/pg_regress/expected/issue_5858.out
+  s_5885916b9c6b8e::t_f7179d322ac3ef 1-613
+pg_search/tests/pg_regress/expected/issue_5997.out
+  s_5885916b9c6b8e::t_8c5ae13e0f92bc 40,58,152,170
+pg_search/tests/pg_regress/expected/issue_6893_funcexpr.out
+  s_5885916b9c6b8e::t_bb9ae8fa501242 1-122
+pg_search/tests/pg_regress/expected/join_final_rel_live_path.out
+  s_5885916b9c6b8e::t_3cdab39f6330ca 67,74,76
+pg_search/tests/pg_regress/expected/order_by_range.out
+  s_5885916b9c6b8e::t_673f2b849f36fe 398,413
+pg_search/tests/pg_regress/expected/sequential_scan.out
+  s_5885916b9c6b8e::t_3899480289532e 29,31,92-93,116,118,133,135,164-165,197-198,211-212,287,289,378-379,451-452,713-714,763-764,778-779,803-804,914,917
+pg_search/tests/pg_regress/expected/setup.out
+  s_5885916b9c6b8e::t_9cb68c1fbe5fb6 74-86
+pg_search/tests/pg_regress/expected/tokenizer-fast-field.out
+  s_5885916b9c6b8e::t_a4e5b8f3c87a39 155,171
+pg_search/tests/pg_regress/expected/tokenizer_literal_normalized.out
+  s_5885916b9c6b8e::t_f77d6793ba7319 20
+pg_search/tests/pg_regress/expected/topk-indexed-expressions.out
+  s_5885916b9c6b8e::t_aff5fd9b122f03 98
+pg_search/tests/pg_regress/expected/topk-lower-text.out
+  s_5885916b9c6b8e::t_860e5bdb4d623a 46,65
+pg_search/tests/pg_regress/expected/topk_validation.out
+  s_5885916b9c6b8e::t_fdd388039f9dcc 42,101,124,148,167
+pg_search/tests/pg_regress/expected/unified_expression_comprehensive.out
+  s_5885916b9c6b8e::t_3f8237c0f76845 998,1013,1029,1047,1066,1084
+pg_search/tests/pg_regress/sql/aggregate_join_multicolumn_topk.sql
+  s_5885916b9c6b8e::t_43a76c5f81cdab 113,124
+pg_search/tests/pg_regress/sql/aggregate_join_numeric_filter.sql
+  s_5885916b9c6b8e::t_a02f614baccbcf 75
+pg_search/tests/pg_regress/sql/basescan_join_qual_fallback.sql
+  s_5885916b9c6b8e::t_c8353c1c40d79f 20,71,90
+pg_search/tests/pg_regress/sql/index_only_scan.sql
+  s_5885916b9c6b8e::t_06ed4ef6acb117 32,35,42,45,49-51,54,65,67-68,74,87,94,96,102,104,107,115,124,159,168,176,189,195,198
+pg_search/tests/pg_regress/sql/issue_4643.sql
+  s_5885916b9c6b8e::t_9d756388cd9898 53,65,270,282,294
+pg_search/tests/pg_regress/sql/issue_5858.sql
+  s_5885916b9c6b8e::t_50a436bace8245 1-333
+pg_search/tests/pg_regress/sql/issue_6893_funcexpr.sql
+  s_5885916b9c6b8e::t_96e717e39dceca 1-58
+pg_search/tests/pg_regress/sql/join_final_rel_live_path.sql
+  s_5885916b9c6b8e::t_f0aa9933eaab32 73,80
+pg_search/tests/pg_regress/sql/sequential_scan.sql
+  s_5885916b9c6b8e::t_f1ed68aaf02ef2 27,57,61,65,76,96,102,138,187,199,322,335,339,350,408
+pg_search/tests/pg_regress/sql/setup.sql
+  s_5885916b9c6b8e::t_15781c0961ec0d 82-95
+schemabot/Cargo.toml
+  s_5885916b9c6b8e::t_fcc947f4bbfd19 1-15
+schemabot/README.md
+  s_5885916b9c6b8e::t_1f282f1a4401f0 1-37
+schemabot/src/main.rs
+  s_5885916b9c6b8e::t_6d18c5fc1578a6 1-70
+schemabot/src/migration.rs
+  s_5885916b9c6b8e::t_eef3c4c8d46c7b 1-274
+schemabot/src/schema.rs
+  s_5885916b9c6b8e::t_29b2eb3afd4295 1-664
+schemabot/src/sql.rs
+  s_5885916b9c6b8e::t_fed56f9592221d 1-199
+schemabot/tests/cli.rs
+  s_5885916b9c6b8e::t_a5ef2b59abed9f 1-226
+schemabot/tests/fixtures/base.sql
+  s_5885916b9c6b8e::t_95ac88640cb83f 1-10
+schemabot/tests/fixtures/head.sql
+  s_5885916b9c6b8e::t_13447fb731ff3d 1-10
+schemabot/tests/fixtures/manual-base.sql
+  s_5885916b9c6b8e::t_5576a86eef4f1d 1-3
+schemabot/tests/fixtures/manual-head.sql
+  s_5885916b9c6b8e::t_304467d7b7f437 1-2
+schemabot/tests/fixtures/migration.sql
+  s_5885916b9c6b8e::t_f72de208ba64d8 1-3
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "6f54055cb82896d76cb75883489b7cfe6bfea642",
+  "prompts": {},
+  "sessions": {
+    "s_5885916b9c6b8e": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a16277-5d4c-7142-8a1f-9246f3da9195",
+        "model": "gpt-6-luna"
+      },
+      "human_author": "devcool20 <sharmadivyanshu265@gmail.com>"
+    }
+  }
+}
