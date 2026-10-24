@@ -1,0 +1,28 @@
+pg_search/src/postgres/build_parallel.rs
+  s_560bd9800271ca::t_452ac022b25e39 1238
+pg_search/src/postgres/heap.rs
+  s_560bd9800271ca::t_452ac022b25e39 1553-1555,1570-1573,1619-1620,1628,1661,1681,1710,1735-1747,1756-1757,1773,1829
+pg_search/src/index/writer/index.rs
+  s_560bd9800271ca::t_452ac022b25e39 536-537,625-631
+pg_search/src/index/directory/mvcc.rs
+  s_560bd9800271ca::t_452ac022b25e39 513-519,521-566,616-621,1116,1124,1189-1194,1198-1202,1210
+  s_560bd9800271ca::t_071e6def71259b 520
+tests/tests/heap.rs
+  s_560bd9800271ca::t_452ac022b25e39 25-97
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "9bb2022d13186949eace6155aaddf2c0cc55ab59",
+  "prompts": {},
+  "sessions": {
+    "s_560bd9800271ca": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a16cfd-7250-79e2-b014-e912a818c798",
+        "model": "gpt-6-luna"
+      },
+      "human_author": "devcool20 <sharmadivyanshu265@gmail.com>"
+    }
+  }
+}
