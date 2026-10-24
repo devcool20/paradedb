@@ -1,0 +1,33 @@
+tests/tests/qgen.rs
+  s_ace3b6b77a621a::t_186b5728415ee4 969
+pg_search/tests/pg_regress/sql/mpp_aggregate_join_split_decode.sql
+  s_ace3b6b77a621a::t_87ce3bfab5d102 1-2,4-85
+  s_ace3b6b77a621a::t_3c242754d4aaf8 3,86
+pg_search/src/scan/physical_codec.rs
+  s_ace3b6b77a621a::t_e8962508e640a1 297-299
+tests/src/fixtures/querygen/mod.rs
+  s_ace3b6b77a621a::t_ccaa7688f2b158 497-498,675,701,730
+  s_ace3b6b77a621a::t_fa82675db2df9d 795-800
+pg_search/tests/pg_regress/expected/mpp_aggregate_join_split_decode.out
+  s_ace3b6b77a621a::t_e8fa62c1606ea7 1-119
+pg_search/src/index/fast_fields_helper.rs
+  s_ace3b6b77a621a::t_8280c63de47825 132-135
+pg_search/src/scan/deferred_lookup.rs
+  s_ace3b6b77a621a::t_29e65abd7a8ed9 157-158,161,163-171
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "c4016ac1bf2fcb7c70c5f592cb2cac1805713eba",
+  "prompts": {},
+  "sessions": {
+    "s_ace3b6b77a621a": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a169d3-7397-7e50-b196-5e0cd6e4caae",
+        "model": "gpt-6-sol"
+      },
+      "human_author": "devcool20 <sharmadivyanshu265@gmail.com>"
+    }
+  }
+}
