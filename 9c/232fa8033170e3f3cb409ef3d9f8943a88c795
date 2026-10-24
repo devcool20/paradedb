@@ -1,0 +1,24 @@
+pg_search/src/index/writer/index.rs
+  s_560bd9800271ca::t_024a0df8b728dd 625-632,638-651
+  s_560bd9800271ca::t_a0d655fc2b2248 633-637
+pg_search/src/index/directory/mvcc.rs
+  s_560bd9800271ca::t_024a0df8b728dd 28-29,567-626
+tests/tests/mutable_toast_vacuum.rs
+  s_560bd9800271ca::t_024a0df8b728dd 1-77
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "9c232fa8033170e3f3cb409ef3d9f8943a88c795",
+  "prompts": {},
+  "sessions": {
+    "s_560bd9800271ca": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a16cfd-7250-79e2-b014-e912a818c798",
+        "model": "gpt-6-luna"
+      },
+      "human_author": "devcool20 <sharmadivyanshu265@gmail.com>"
+    }
+  }
+}
