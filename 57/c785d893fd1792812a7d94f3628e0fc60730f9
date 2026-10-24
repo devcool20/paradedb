@@ -1,0 +1,45 @@
+pg_search/src/postgres/merge.rs
+  s_560bd9800271ca::t_8ad8cb887e9407 28,31,88,90-96,100-108,286,305,317,341,344-347,360-363,480,490-491,514,518-519,523-525,530-532,556-558,568,579,593,610
+pg_search/src/postgres/storage/coordination_test.rs
+  s_560bd9800271ca::t_8ad8cb887e9407 1-146
+pg_search/src/postgres/storage/metadata.rs
+  s_560bd9800271ca::t_8ad8cb887e9407 23,233-251,323-339,348,352-353,357,361,488-523
+pg_search/tests/merge_cleanup.rs
+  s_560bd9800271ca::t_8ad8cb887e9407 1-533
+pg_search/Cargo.toml
+  s_560bd9800271ca::t_8ad8cb887e9407 116
+pg_search/src/postgres/storage/merge.rs
+  s_560bd9800271ca::t_8ad8cb887e9407 18,53-67,73-74,267,272-285,354-363
+pg_search/src/postgres/insert.rs
+  s_560bd9800271ca::t_8ad8cb887e9407 446-449
+nix/pg_search.nix
+  s_560bd9800271ca::t_8ad8cb887e9407 68
+pg_search/src/postgres/delete.rs
+  s_560bd9800271ca::t_8ad8cb887e9407 106,114-116,123,139-140,146-148,166-168
+pg_search/src/postgres/storage/mod.rs
+  s_560bd9800271ca::t_8ad8cb887e9407 105-106
+pg_search/src/index/writer/index.rs
+  s_560bd9800271ca::t_85b6d6358b274f 638-639
+pg_search/src/postgres/vacuum.rs
+  s_560bd9800271ca::t_8ad8cb887e9407 33
+docs/project/changelog/unreleased/6740.stability.mdx
+  s_560bd9800271ca::t_8ad8cb887e9407 1-5
+Cargo.lock
+  s_560bd9800271ca::t_975aa8268a958a 5123
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "57c785d893fd1792812a7d94f3628e0fc60730f9",
+  "prompts": {},
+  "sessions": {
+    "s_560bd9800271ca": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a16cfd-7250-79e2-b014-e912a818c798",
+        "model": "gpt-6-luna"
+      },
+      "human_author": "devcool20 <sharmadivyanshu265@gmail.com>"
+    }
+  }
+}
