@@ -1,0 +1,19 @@
+.github/actions/test-pg_search-upgrade/tokenizer_compatibility/setup.sql
+  s_9ad2bfa955732d::t_a45529790c5895 42-43,47,118
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "4f1fb3337cc092078768d32e468202679ee2cc3c",
+  "prompts": {},
+  "sessions": {
+    "s_9ad2bfa955732d": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a17835-4a33-71d3-a397-880a476f317c",
+        "model": "gpt-6-luna"
+      },
+      "human_author": "devcool20 <sharmadivyanshu265@gmail.com>"
+    }
+  }
+}
