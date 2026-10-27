@@ -1,0 +1,114 @@
+.github/actions/test-pg_search-upgrade/action.yml
+  s_9ad2bfa955732d::t_3c5823fd155e64 36-41
+  s_9ad2bfa955732d::t_7eaaa7645ed1c2 42-47
+.github/actions/test-pg_search-upgrade/tokenizer_recent_options/queries.sql
+  s_9ad2bfa955732d::t_3c5823fd155e64 1-40
+.github/actions/test-pg_search-upgrade/tokenizer_compatibility/setup.sql
+  s_9ad2bfa955732d::t_f21faaeb17f679 37,326
+  s_9ad2bfa955732d::t_d549da78f15fe6 520,523
+  s_9ad2bfa955732d::t_6483f9e25a5789 124-125,132,148-149,156,500,502-508,525-530
+  s_9ad2bfa955732d::t_553d318c297c3b 43,78,260-261,337-344
+  s_9ad2bfa955732d::t_ae62bb00528d3d 49-51,83-86,282-293
+  s_9ad2bfa955732d::t_4f38db912a4b24 249,332-336
+  s_9ad2bfa955732d::t_460c97a1c4c88a 126-131,150-155,448-497
+  s_9ad2bfa955732d::t_ff501be553383b 119-120,143-144,424-433,519,522
+  s_9ad2bfa955732d::t_93ff7541c666de 34,69,224-227
+  s_9ad2bfa955732d::t_15d25ffdebf22d 75
+  s_9ad2bfa955732d::t_1086c3d1058a00 118,142,364-371,406-421
+  s_9ad2bfa955732d::t_a6a3e30fb9e8d4 121-123,145-147,372-387,422-423,434-447
+  s_9ad2bfa955732d::t_7b4b4f20b5c331 42,44-47,77,79-82,258-259,264-281
+  s_9ad2bfa955732d::t_ac74dba0118984 115-116,139-140,157-158,163,354-359,394-397
+  s_9ad2bfa955732d::t_98fc353e23c977 29-30,33,35,52,64,67-68,70,210-211,216-223,228-233
+  s_9ad2bfa955732d::t_9edad3a240fc71 31-32,65-66,212-215,297-298,308-311
+  s_9ad2bfa955732d::t_f0a57cf9415b41 48,117,141,159-162,300-307,360-363,398-405
+  s_9ad2bfa955732d::t_865614a4e9f240 296,299,312-322,501,531-533
+  s_9ad2bfa955732d::t_475d69f012b1e2 36,38-41,71-74,76,234-248,250-256
+  s_9ad2bfa955732d::t_5984260beca731 548-741
+  s_9ad2bfa955732d::t_4f931bffcd74cd 112-114,133-138,345-353,389,393,498-499,518,521,524
+  s_9ad2bfa955732d::t_ac1a8322704605 262-263,388,390-392
+  s_9ad2bfa955732d::t_bc52846f95469c 257,323-325,327-331
+  s_9ad2bfa955732d::t_048bc0f05cc183 164
+  s_26aa6558bb597a::t_91709845daff90 20-25,185,189,193,197,201,205
+.github/actions/test-pg_search-upgrade/tokenizer_recent_options/setup.sql
+  s_9ad2bfa955732d::t_7cf4d554753b0e 7,13,84,132
+  s_9ad2bfa955732d::t_3c5823fd155e64 1-4,16,20-24,36,40-60,187-194,196,198-200
+  s_9ad2bfa955732d::t_8ca6217270317a 17-19,37-39,150-185,195,197
+  s_9ad2bfa955732d::t_47719acc8e12b7 5-6,8-12,14-15,25-35,61-83,85-131,133-149,186
+.github/actions/test-pg_search-upgrade/tokenizer_compatibility/queries.sql
+  s_9ad2bfa955732d::t_01bd182540a79b 21,32-34,52-61,63,122,127-136,138
+  s_9ad2bfa955732d::t_98fc353e23c977 4-7,105-108
+  s_9ad2bfa955732d::t_cc756cb45c2f01 22,35-44,49-51,123,151-157,162-164
+  s_9ad2bfa955732d::t_6483f9e25a5789 62,64-69,137,139-144
+  s_9ad2bfa955732d::t_9a203c5cbe4cad 45-48,158-161
+  s_9ad2bfa955732d::t_865614a4e9f240 76-78,165-167
+  s_9ad2bfa955732d::t_056a9bf5162502 194,226-292
+  s_9ad2bfa955732d::t_95c2c0d70d18ac 195-198,200-204,206,208-215,220-225
+  s_9ad2bfa955732d::t_ca0596f8a0ab0c 199,205,207,216-218
+  s_9ad2bfa955732d::t_8035cbb78b841d 219
+  s_1c86daeb84af88::t_31f47f411d0d32 11-16,112-117
+tokenizers/src/manager.rs
+  s_9ad2bfa955732d::t_1790a3b559c895 243-246,986,989-1002,1079-1087,1092-1096,1105-1106
+  s_9ad2bfa955732d::t_938abfb5884675 987-988
+  s_9ad2bfa955732d::t_85ca653debfcf6 1088-1091,1097-1104
+.github/actions/test-pg_search-upgrade/regex_tokenizers/queries.sql
+  s_9ad2bfa955732d::t_8cc174c899e6bf 27-28
+  s_9ad2bfa955732d::t_d50fd93afa9f24 2,34-47,54,64
+.github/actions/test-pg_search-upgrade/README.md
+  s_9ad2bfa955732d::t_e7157272e0f672 7
+.github/actions/test-pg_search-upgrade/tokenizer-coverage.md
+  s_9ad2bfa955732d::t_ebee3b9dbe57e1 1-30
+pg_search/src/index/search.rs
+  s_9ad2bfa955732d::t_91e3b678762112 21,24,38-41,58,64-72,86-87
+  s_9ad2bfa955732d::t_e2ac2566015489 37,57,73-85
+  s_9ad2bfa955732d::t_eeded8002649a8 63
+.github/actions/test-pg_search-upgrade/regex_pattern_names/setup.sql
+  s_9ad2bfa955732d::t_7eaaa7645ed1c2 1-50
+tokenizers/src/lib.rs
+  s_9ad2bfa955732d::t_93194eb37c520f 38-45,47-51,60,78-86,130-145
+  s_9ad2bfa955732d::t_b9de8387b36edc 108-129,146-148,193
+  s_9ad2bfa955732d::t_ad09c0f200d8d1 150-152,175-192
+  s_9ad2bfa955732d::t_2f708191a5e214 64
+  s_9ad2bfa955732d::t_d723f903ce004b 30,62-63,65-67,87
+  s_9ad2bfa955732d::t_fc13bae019d9ca 154-173
+  s_9ad2bfa955732d::t_973a4bc66baf4a 31
+  s_9ad2bfa955732d::t_db7c2944793c61 77
+  s_9ad2bfa955732d::t_657c4c33e36e06 107
+  s_9ad2bfa955732d::t_0708328b2c18aa 149
+  s_9ad2bfa955732d::t_bc3593f0a77fb1 153
+  s_9ad2bfa955732d::t_c23935084a4be4 174
+.github/actions/test-pg_search-upgrade/regex_pattern_names/queries.sql
+  s_9ad2bfa955732d::t_93d2802d52fde7 4,25
+  s_9ad2bfa955732d::t_7eaaa7645ed1c2 1-3,5-24,26-42
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "2b38bf578bea1dd82c4052139a4b2ec194c957e7",
+  "prompts": {},
+  "sessions": {
+    "s_1c86daeb84af88": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a17b73-9b5a-7930-bf1d-9f95568fc440",
+        "model": "unknown"
+      },
+      "human_author": "devcool20 <sharmadivyanshu265@gmail.com>"
+    },
+    "s_26aa6558bb597a": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a17d2d-b9e4-7752-bbce-4bce5e915c0e",
+        "model": "unknown"
+      },
+      "human_author": "devcool20 <sharmadivyanshu265@gmail.com>"
+    },
+    "s_9ad2bfa955732d": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a17835-4a33-71d3-a397-880a476f317c",
+        "model": "gpt-6-luna"
+      },
+      "human_author": "devcool20 <sharmadivyanshu265@gmail.com>"
+    }
+  }
+}
