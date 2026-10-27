@@ -1,0 +1,21 @@
+.github/actions/test-pg_search-upgrade/tokenizer-coverage.md
+  s_9ad2bfa955732d::t_ab255d5040ab32 10-23
+.github/actions/test-pg_search-upgrade/tokenizer_compatibility/setup.sql
+  s_9ad2bfa955732d::t_f4a1ba03d96d50 734-735,737-750
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "fe8292212b055eb95f591b53e9d790ce32db6178",
+  "prompts": {},
+  "sessions": {
+    "s_9ad2bfa955732d": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a17835-4a33-71d3-a397-880a476f317c",
+        "model": "gpt-6-luna"
+      },
+      "human_author": "devcool20 <sharmadivyanshu265@gmail.com>"
+    }
+  }
+}
