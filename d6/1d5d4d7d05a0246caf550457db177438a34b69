@@ -1,0 +1,109 @@
+pg_search/src/postgres/customscan/aggregatescan/datafusion_build.rs
+  s_f2770f3a6879b6::t_ff33fda2244766 34
+  s_f2770f3a6879b6::t_86962ee749a22b 141,212-215
+pg_search/src/query/pdb_query.rs
+  s_f2770f3a6879b6::t_85fbdc645ee04d 2338-2339,2349-2353,2360-2362,2364-2365,2378,2394,2398-2399,2408-2413,2418-2421,2460
+  s_f2770f3a6879b6::t_9ac3368cdc4aef 2336-2337,2381-2383,2395-2396
+pg_search/src/api/version.rs
+  s_f2770f3a6879b6::t_e135f5ddc061bd 38,82,129-130
+pg_search/src/postgres/pdb_owned_value.rs
+  s_f2770f3a6879b6::t_b9594ed8e52442 155-159,167,171-175,198
+  s_f2770f3a6879b6::t_8b7b4264646295 843-846,851-853
+  s_f2770f3a6879b6::t_a4dbc5ab20daf3 185,193,199,202,313-315,701-702,707,815,821,854-856
+  s_f2770f3a6879b6::t_72e9b68c8e285b 847-850
+pg_search/src/postgres/customscan/aggregatescan/join_targetlist.rs
+  s_f2770f3a6879b6::t_86962ee749a22b 1386
+pg_search/src/postgres/datetime.rs
+  s_f2770f3a6879b6::t_f970798e0f47e6 929-930,932-933,951
+  s_f2770f3a6879b6::t_fa85452b8d7439 854,887,956
+  s_f2770f3a6879b6::t_016b4a6b1f2a65 88-113,148,153,157,162,167,171,177,186,208,210,213,215,219,228,230,258,264,290,293
+pg_search/src/scan/batch_scanner.rs
+  s_f2770f3a6879b6::t_b1e91444f82bb0 91,98,102
+pg_search/src/postgres/customscan/aggregatescan/datafusion_exec.rs
+  s_f2770f3a6879b6::t_0c8111cc5cb59f 702,894,901,960
+pg_search/src/aggregate/mod.rs
+  s_f2770f3a6879b6::t_a2b9d510497359 956
+pg_search/src/query/more_like_this.rs
+  s_f2770f3a6879b6::t_8bc56ae12e0417 75-76
+  s_f2770f3a6879b6::t_1438807507cb52 70,77,79
+pg_search/src/index/stats/mod.rs
+  s_f2770f3a6879b6::t_6b2c4acbe3cd53 381
+pg_search/src/postgres/customscan/datafusion/pdb_agg_udaf.rs
+  s_f2770f3a6879b6::t_ff33fda2244766 1227
+  s_f2770f3a6879b6::t_0c8111cc5cb59f 421
+pg_search/src/scan/table_provider.rs
+  s_f2770f3a6879b6::t_70e6e16dbffe2c 348
+pg_search/src/postgres/index_only.rs
+  s_f2770f3a6879b6::t_154208c8ba161d 330-331
+pg_search/src/postgres/customscan/aggregatescan/exec.rs
+  s_f2770f3a6879b6::t_a2b9d510497359 299
+pg_search/src/postgres/customscan/pullup.rs
+  s_f2770f3a6879b6::t_b0f21268ce8e69 95-98,153-161
+pg_search/src/postgres/customscan/aggregatescan/mod.rs
+  s_f2770f3a6879b6::t_a2b9d510497359 2862
+pg_search/src/index/fast_fields_helper.rs
+  s_f2770f3a6879b6::t_1f0dfc7a3c4388 22
+  s_f2770f3a6879b6::t_665483f1b04b80 212,339-344,368,439,448,470,506-511,628,693-712,723,726,759,785,793-794
+  s_f2770f3a6879b6::t_4d6e09471ea62f 110,116-125
+pg_search/src/query/numeric.rs
+  s_f2770f3a6879b6::t_0b6fbf65fb82ea 536-550,569-570,575,741,749,751-752,759,764
+  s_f2770f3a6879b6::t_4acbfd86c8c7ff 746
+pg_search/src/postgres/customscan/basescan/exec_methods/fast_fields/mod.rs
+  s_f2770f3a6879b6::t_154208c8ba161d 137-140
+pg_search/src/postgres/utils.rs
+  s_f2770f3a6879b6::t_a6fc1c9796d8fa 1023-1027,1038-1042,1066-1069
+pg_search/src/postgres/customscan/aggregatescan/json_rewrite.rs
+  s_f2770f3a6879b6::t_c418c665f4601e 29
+  s_f2770f3a6879b6::t_ecee63db4b0837 42-43,45
+pg_search/src/postgres/customscan/joinscan/planning.rs
+  s_f2770f3a6879b6::t_5b39a731a5c310 790,1388,1390,1392-1398,1402,1977-1978
+pg_search/src/schema/mod.rs
+  s_f2770f3a6879b6::t_2a08ecb21ffd47 228-235
+  s_f2770f3a6879b6::t_389ec17dacd023 171,388,824-825,1025
+  s_f2770f3a6879b6::t_31b3a2b12ef5bf 450,477,482,488,493-496,585-590,778,796-801,817,821-823
+pg_search/src/postgres/customscan/aggregatescan/pdb_agg.rs
+  s_f2770f3a6879b6::t_86962ee749a22b 73,88-93,108,110
+  s_f2770f3a6879b6::t_0c8111cc5cb59f 80-84
+  s_f2770f3a6879b6::t_ff33fda2244766 1271
+  s_f2770f3a6879b6::t_a93b3ff4add08c 109,334
+pg_search/src/postgres/types.rs
+  s_f2770f3a6879b6::t_b9594ed8e52442 67
+Cargo.lock
+  s_f2770f3a6879b6::t_3d3b165fac83a4 1700,1702
+nix/pg_search.nix
+  s_f2770f3a6879b6::t_494a7e144117ce 68
+pg_search/src/postgres/storage/metadata.rs
+  s_f2770f3a6879b6::t_23aef8c1a572a3 266,270,493
+pg_search/tests/pending_date_storage/issue_6730.out
+  s_f2770f3a6879b6::t_96aa166755485b 1-166
+pg_search/tests/pending_date_storage/issue_6730.sql
+  s_f2770f3a6879b6::t_b70579efe22f15 1-97
+pg_search/tests/pg_regress/expected/aggregate_pinned_group_key.out
+  s_f2770f3a6879b6::t_8b64e755ce60ad 704-705,715
+pg_search/tests/pg_regress/expected/datetime_groupby_agg.out
+  s_f2770f3a6879b6::t_75a8097fbdb91c 90-91,95,131-132,136,168-169,173
+pg_search/tests/pg_regress/expected/issue_6722.out
+  s_f2770f3a6879b6::t_f8d3f8567a118a 21-22,31
+pg_search/tests/pg_regress/expected/issue_6730.out
+  s_f2770f3a6879b6::t_79f47735d2aaaf 1-2,4,6,8-9,12-16,18-21,23,27-29,31-34,36,39-44,46,49-55
+pg_search/tests/pg_regress/expected/pushdown_scalar_array_opexr.out
+  s_f2770f3a6879b6::t_40a27cfc4005cd 128-129,138
+pg_search/tests/pg_regress/sql/issue_6730.sql
+  s_f2770f3a6879b6::t_c1be5c5f01fe9e 1-2,5,7,10,13-18,21,25-26,29,32-33,35,38-40
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "d61d5d4d7d05a0246caf550457db177438a34b69",
+  "prompts": {},
+  "sessions": {
+    "s_f2770f3a6879b6": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a15d50-1101-7db2-bdad-bc4b604b5a0e",
+        "model": "gpt-6-sol"
+      },
+      "human_author": "devcool20 <sharmadivyanshu265@gmail.com>"
+    }
+  }
+}
