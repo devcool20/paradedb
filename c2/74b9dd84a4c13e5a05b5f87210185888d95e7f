@@ -1,0 +1,23 @@
+.github/actions/test-pg_search-upgrade/tokenizer_compatibility/setup.sql
+  s_9ad2bfa955732d::t_8d8a909bf3c676 635-636,639-641
+  s_9ad2bfa955732d::t_d3252fea7956f1 592
+  s_9ad2bfa955732d::t_d7d60b810eaefe 633
+.github/actions/test-pg_search-upgrade/tokenizer_recent_options/setup.sql
+  s_9ad2bfa955732d::t_8d8a909bf3c676 184
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "c274b9dd84a4c13e5a05b5f87210185888d95e7f",
+  "prompts": {},
+  "sessions": {
+    "s_9ad2bfa955732d": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a17835-4a33-71d3-a397-880a476f317c",
+        "model": "gpt-6.1-terra"
+      },
+      "human_author": "devcool20 <sharmadivyanshu265@gmail.com>"
+    }
+  }
+}
