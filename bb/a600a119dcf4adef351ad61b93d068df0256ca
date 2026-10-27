@@ -1,0 +1,33 @@
+pg_search/src/postgres/pdb_owned_value.rs
+  s_f2770f3a6879b6::t_adac2fa795385a 761,789,843
+pg_search/src/postgres/insert.rs
+  s_f2770f3a6879b6::t_ab6dc3162ddeb1 378-384,393-394
+pg_search/src/postgres/datetime.rs
+  s_f2770f3a6879b6::t_adac2fa795385a 799,816,1028
+pg_search/tests/pg_regress/expected/aggregate_pinned_group_key.out
+  s_f2770f3a6879b6::t_57e0736327cc76 704-705,715
+pg_search/tests/pg_regress/expected/datetime_groupby_agg.out
+  s_f2770f3a6879b6::t_e8172ed1351133 90-91,95,131-132,136,168-169,173
+pg_search/tests/pg_regress/expected/issue_6722.out
+  s_f2770f3a6879b6::t_91fe48135d3a0f 21-22,31
+pg_search/tests/pg_regress/expected/pushdown_scalar_array_opexr.out
+  s_f2770f3a6879b6::t_f615bc8e473725 128-129,138
+pg_search/tests/pg_regress/expected/recursive_estimates.out
+  s_f2770f3a6879b6::t_149e1723ad9d98 920,923,929,931
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "bba600a119dcf4adef351ad61b93d068df0256ca",
+  "prompts": {},
+  "sessions": {
+    "s_f2770f3a6879b6": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a15d50-1101-7db2-bdad-bc4b604b5a0e",
+        "model": "gpt-6-luna"
+      },
+      "human_author": "devcool20 <sharmadivyanshu265@gmail.com>"
+    }
+  }
+}
