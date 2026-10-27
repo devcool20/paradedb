@@ -1,0 +1,25 @@
+pg_search/src/postgres/pdb_owned_value.rs
+  s_f2770f3a6879b6::t_1b99fbac0aa357 314
+pg_search/tests/pg_regress/README.md
+  s_f2770f3a6879b6::t_a0ac1b82cefc0a 13-14
+pg_search/src/postgres/datetime.rs
+  s_f2770f3a6879b6::t_5ea0d97f8e9372 85,87
+.github/workflows/test-pg_search.yml
+  s_f2770f3a6879b6::t_a0ac1b82cefc0a 299-333
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "7e6dbc97e6fba017ad282ee60fbd8638df656682",
+  "prompts": {},
+  "sessions": {
+    "s_f2770f3a6879b6": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a15d50-1101-7db2-bdad-bc4b604b5a0e",
+        "model": "gpt-6.1-terra"
+      },
+      "human_author": "devcool20 <sharmadivyanshu265@gmail.com>"
+    }
+  }
+}
