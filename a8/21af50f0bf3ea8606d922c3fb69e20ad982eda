@@ -1,0 +1,155 @@
+pg_search/tests/pg_regress/expected/recursive_estimates.out
+  s_f2770f3a6879b6::t_8926d3d7a5e8c7 920,923,929,931
+.github/actions/benchmark-queries/action.yml
+  s_f2770f3a6879b6::t_5b403f1f88bdf4 16,31-32
+.github/actions/publish-benchmarker-results/action.yml
+  s_f2770f3a6879b6::t_f2163c3e9e6d92 22-29,46,52,59-63,110-111,118,122,145,167-189,217,227,240-247,254-255,259-260,274,276,278
+.github/actions/publish-queries-results/action.yml
+  s_f2770f3a6879b6::t_5402645acd1c40 16,31
+.github/actions/stage-benchmark-results/action.yml
+  s_f2770f3a6879b6::t_112bd0f202bcb8 48-49
+.github/workflows/benchmark-pg_search-benchmarker-cohere.yml
+  s_f2770f3a6879b6::t_f1c5db76daba9a 1-325
+.github/workflows/benchmark-pg_search-queries.yml
+  s_f2770f3a6879b6::t_0f392a53c2331e 4,8,60,75,95,103,159
+.github/workflows/publish-benchmark-results.yml
+  s_f2770f3a6879b6::t_18cd92ddfbba79 111-112
+Cargo.lock
+  s_f2770f3a6879b6::t_553b65503fcbc1 2091,4951,7131,7190,7198,7213,7246,7255,7267,7280,7317
+Cargo.toml
+  s_f2770f3a6879b6::t_3367f4471ba733 73,82,86-87
+benchmarks/README.md
+  s_f2770f3a6879b6::t_7749e7015859b4 3-4,85,111
+benchmarks/cohere/.gitignore
+  s_f2770f3a6879b6::t_503ec3d579271a 1
+benchmarks/cohere/10m.toml
+  s_f2770f3a6879b6::t_927871ef7eee70 1-43
+benchmarks/cohere/1m.toml
+  s_f2770f3a6879b6::t_7e76df4257727d 1-43
+benchmarks/cohere/README.md
+  s_f2770f3a6879b6::t_4b899b198b84c7 1-60
+benchmarks/cohere/assets/cohere/create_table.sql
+  s_f2770f3a6879b6::t_eb0fea36e3c4db 1-10
+benchmarks/cohere/assets/cohere/queries/knn_top10_10pct.sql
+  s_f2770f3a6879b6::t_7b44bf2e2d9f4e 1,3
+benchmarks/cohere/assets/cohere/queries/knn_top10_1pct.sql
+  s_f2770f3a6879b6::t_aba87e698ad220 1,3
+benchmarks/cohere/assets/cohere/queries/knn_top10_unfiltered.sql
+  s_f2770f3a6879b6::t_75291173e26f4d 1,3
+benchmarks/cohere/k6/search.js
+  s_f2770f3a6879b6::t_150f491f7501fc 1-56
+benchmarks/cohere/prepare_k6.py
+  s_f2770f3a6879b6::t_1f261c64ea17cd 1,5-23,25-33,35-74,77-78,80,82-87,89-92,94-96,98-104,107,109-110,112-120
+benchmarks/cohere/test_prepare_k6.py
+  s_f2770f3a6879b6::t_a6b7db49449080 1-131
+benchmarks/cohere/verify_plans.py
+  s_f2770f3a6879b6::t_7cca2ff0e54cca 1-65
+benchmarks/datasets/cohere/config.toml
+  s_f2770f3a6879b6::t_b3cfe3165e8ada 1,8
+benchmarks/datasets/cohere/indexes/pg_search.sql
+  s_f2770f3a6879b6::t_9b282880401913 2
+benchmarks/datasets/stackoverflow/queries/join_disjunctive_score_sort_high_selectivity/README.md
+  s_f2770f3a6879b6::t_be0b2a863d1d9d 22,24
+benchmarks/datasets/stackoverflow/queries/join_disjunctive_score_sort_low_selectivity/README.md
+  s_f2770f3a6879b6::t_d345c85364a824 22,24,26
+benchmarks/datasets/stackoverflow/queries/join_disjunctive_score_sort_medium_selectivity/README.md
+  s_f2770f3a6879b6::t_f5ffb6b0cd0c18 21,23
+benchmarks/src/main.rs
+  s_f2770f3a6879b6::t_1cca85252d0151 20,35,82,88,197,276-277,279-280,282-288,382,627-629,702-703,724-725,1451-1467,1649-1657,1660,1684,1689,1695
+docs/project/changelog/unreleased/6887.stability.mdx
+  s_f2770f3a6879b6::t_3bda1ecbeff51a 1-5
+docs/project/changelog/unreleased/6998.bugfix.mdx
+  s_f2770f3a6879b6::t_b1a9c68cf26d80 1-5
+docs/project/changelog/unreleased/7066.performance.mdx
+  s_f2770f3a6879b6::t_e6625171a1dbd5 1-5
+docs/project/changelog/unreleased/avx512-sign-kernels.performance.mdx
+  s_f2770f3a6879b6::t_dab3566e80ca48 1-5
+docs/project/changelog/unreleased/remove-vector-aps.performance.mdx
+  s_f2770f3a6879b6::t_cc8a954bb97752 1-5
+nix/pg_search.nix
+  s_f2770f3a6879b6::t_2a1f8fc49aa6bf 68
+pg_search/Cargo.toml
+  s_f2770f3a6879b6::t_54d941dc8b4aa4 98
+pg_search/src/gucs.rs
+  s_f2770f3a6879b6::t_5d701fbd6a3adc 352-353,355,680,683-684,694-695
+pg_search/src/index/directory/build.rs
+  s_f2770f3a6879b6::t_cfd62d32cdba92 1-446
+pg_search/src/index/directory/mod.rs
+  s_f2770f3a6879b6::t_b7d0280a101574 18
+pg_search/src/index/directory/mvcc.rs
+  s_f2770f3a6879b6::t_25c8a9f0ed3078 23,70-71,75,77,79,86-87,93-96,112-115
+pg_search/src/index/fast_fields_helper.rs
+  s_f2770f3a6879b6::t_7c345cd29a23fb 27,84,114
+pg_search/src/index/reader/index.rs
+  s_f2770f3a6879b6::t_b41b6a08747c17 45,403-404,587,667,909
+pg_search/src/index/writer/index.rs
+  s_f2770f3a6879b6::t_b1780440bca6ad 24,29,33,39,43,125-127,131-132,162-165,171,175,189,223-230,234-309,311-313,318-345,417,460,523-526,532-536,544-546,569-576,584-600,865-973
+pg_search/src/postgres/buffile.rs
+  s_f2770f3a6879b6::t_859162e3f95b0d 24,174-235
+pg_search/src/postgres/build_parallel.rs
+  s_f2770f3a6879b6::t_9faeb875fb394f 22,36,67,71,87,113,116,132-133,144,146,148,150,160-164,360-361,369-378,409,411-415,419,423-424,427,461,787,794,837,863,865,903-916,918-923,930-932,936-937,939-940,949,1003,1007,1011,1013-1019,1025-1027,1029,1038,1040,1190,1244,1246-1247,1250,1252,1262,1347-1349,1409-1412,1476-1480,1493,1514,1538-1543,1550-1551,1599-1601,1603,1707-1871,1890,1902,1939-1940,1984,2004-2005,2025,2027-2037,2048,2068-2116
+pg_search/src/postgres/customscan/basescan/mod.rs
+  s_f2770f3a6879b6::t_8398bfb47d2202 3066
+pg_search/src/postgres/customscan/datafusion/spill.rs
+  s_f2770f3a6879b6::t_c0a670bce0dd10 60,140,150,182,205-208,212,217-218,227-230,232,242,257-262,278,283-310
+pg_search/src/postgres/customscan/explain.rs
+  s_f2770f3a6879b6::t_53b9f2d37bd3cd 235
+pg_search/src/postgres/customscan/joinscan/build.rs
+  s_f2770f3a6879b6::t_d1eb70bea386d5 578
+pg_search/src/postgres/customscan/joinscan/mod.rs
+  s_f2770f3a6879b6::t_ae28ae6ec56ad7 2841,2848-2852
+pg_search/src/postgres/customscan/solve_expr.rs
+  s_f2770f3a6879b6::t_500228b12a948d 235-237,283-285,290
+pg_search/src/postgres/delete.rs
+  s_f2770f3a6879b6::t_0835abe1a94133 18-24,222,250,254
+pg_search/src/postgres/heap.rs
+  s_f2770f3a6879b6::t_0f87d348c6a625 590
+pg_search/src/postgres/merge.rs
+  s_f2770f3a6879b6::t_1d98e047634100 546
+pg_search/src/postgres/sequentialscan/mod.rs
+  s_f2770f3a6879b6::t_b21b3ef1f4a80d 283-287
+pg_search/src/postgres/storage/metadata.rs
+  s_f2770f3a6879b6::t_9d27e4a0491155 23,102-112,257-258,261,336-337,340,350,352-370,381-382,509,521-524,529-531,537,543
+pg_search/src/postgres/storage/mod.rs
+  s_f2770f3a6879b6::t_fe5c1e4d6d0c53 34-36
+pg_search/src/query/mod.rs
+  s_f2770f3a6879b6::t_5dd638c73e641a 114-125,226,573-575,586,888,1414-1429,1629-1632,2313-2315,2474-2484
+pg_search/src/query/segment_pruning.rs
+  s_f2770f3a6879b6::t_2630a598b754ac 270-271,316-317
+pg_search/src/scan/execution_plan.rs
+  s_f2770f3a6879b6::t_022946b6a2413f 28,1691,1696-1699
+pg_search/tests/merge_cleanup.rs
+  s_f2770f3a6879b6::t_7946b0646db793 36-39,107,370,404,429,543-710
+pg_search/tests/pg_regress/expected/issue_6928.out
+  s_f2770f3a6879b6::t_363f59f9dd053f 1-144
+pg_search/tests/pg_regress/expected/join_system_columns.out
+  s_f2770f3a6879b6::t_f9e01a0ac891a6 1-42,44-99
+pg_search/tests/pg_regress/sql/issue_6928.sql
+  s_f2770f3a6879b6::t_b3dccadfecd661 1-86
+pg_search/tests/pg_regress/sql/join_system_columns.sql
+  s_f2770f3a6879b6::t_96210abd765348 1-7,9-52
+tests/tests/aborted_xact.rs
+  s_f2770f3a6879b6::t_dd0cf5107d0b09 110-112,119-120,138-267
+tests/tests/joinscan_system_columns.rs
+  s_f2770f3a6879b6::t_e729c94c0d95ca 1-174
+tests/tests/replication.rs
+  s_f2770f3a6879b6::t_5ed8bd9e2b947b 1029-1031,1033
+tokenizers/src/lindera.rs
+  s_f2770f3a6879b6::t_dd30392f64425e 40,230-231,252-253,274-275,289,322,324,358-445
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "a821af50f0bf3ea8606d922c3fb69e20ad982eda",
+  "prompts": {},
+  "sessions": {
+    "s_f2770f3a6879b6": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a15d50-1101-7db2-bdad-bc4b604b5a0e",
+        "model": "gpt-6.1-terra"
+      },
+      "human_author": "devcool20 <sharmadivyanshu265@gmail.com>"
+    }
+  }
+}
