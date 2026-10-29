@@ -1,0 +1,47 @@
+pg_search/tests/pg_regress/expected/join_duplicate_filter.out
+  s_acb5748e174e9b::t_ef30df3344aeb4 1-173
+pg_search/tests/pg_regress/expected/join_lateral_unnest.out
+  s_acb5748e174e9b::t_ef30df3344aeb4 290
+.gitattributes
+  s_acb5748e174e9b::t_4bb0ec38eb6aae 13-14
+  s_acb5748e174e9b::t_627a91f17ff314 12
+pg_search/src/scan/safe_filter_pushdown.rs
+  s_acb5748e174e9b::t_ef30df3344aeb4 1-372
+pg_search/tests/pg_regress/expected/join_duplicate_dynamic_filter.out
+  s_acb5748e174e9b::t_ef30df3344aeb4 1-132
+pg_search/tests/pg_regress/expected/rank_join_single_sided.out
+  s_9ff6c56ec27dd1::t_7bdb9cf3daa176 287-288
+  s_acb5748e174e9b::t_ef30df3344aeb4 307-308
+pg_search/src/postgres/customscan/joinscan/scan_state.rs
+  s_acb5748e174e9b::t_ef30df3344aeb4 554-560,626-628
+pg_search/tests/pg_regress/sql/join_duplicate_dynamic_filter.sql
+  s_acb5748e174e9b::t_ef30df3344aeb4 1-74
+pg_search/tests/pg_regress/sql/join_duplicate_filter.sql
+  s_acb5748e174e9b::t_ef30df3344aeb4 1-85
+pg_search/src/scan/mod.rs
+  s_acb5748e174e9b::t_ef30df3344aeb4 37
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "4d1f36f53c7cef9ad3ddfe30493a1f876402ad10",
+  "prompts": {},
+  "sessions": {
+    "s_9ff6c56ec27dd1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a185f0-2610-7ca2-bfc1-d59988400ac0",
+        "model": "gpt-6.1-terra"
+      },
+      "human_author": "devcool20 <sharmadivyanshu265@gmail.com>"
+    },
+    "s_acb5748e174e9b": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1856e-dc1b-74f3-afff-2d152313e8b6",
+        "model": "gpt-6.1-terra"
+      },
+      "human_author": "devcool20 <sharmadivyanshu265@gmail.com>"
+    }
+  }
+}
