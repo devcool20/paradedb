@@ -1,0 +1,19 @@
+pg_search/tests/pg_regress/expected/join_duplicate_filter.out
+  s_7cff36b6840a5f::t_caff05bf91e111 55,57,109,111
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "573bd008badd3938f7b626413749a4c20d5537b6",
+  "prompts": {},
+  "sessions": {
+    "s_7cff36b6840a5f": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1889f-2b0e-7a42-b25a-6ac22f8bd063",
+        "model": "gpt-6-sol"
+      },
+      "human_author": "devcool20 <sharmadivyanshu265@gmail.com>"
+    }
+  }
+}
