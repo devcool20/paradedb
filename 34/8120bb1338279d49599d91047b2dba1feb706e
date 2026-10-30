@@ -1,0 +1,29 @@
+pg_search/tests/pg_regress/expected/rank_join_single_sided.out
+  s_7cff36b6840a5f::t_3c8101c048b6e0 287-288,307-308
+pg_search/src/scan/filter_pushdown.rs
+  s_7cff36b6840a5f::t_3c8101c048b6e0 321-324,336-343,345-353,355-369,371-372,497,507-525
+pg_search/tests/pg_regress/expected/join_duplicate_dynamic_filter.out
+  s_7cff36b6840a5f::t_3c8101c048b6e0 38,79
+pg_search/src/postgres/customscan/joinscan/scan_state.rs
+  s_7cff36b6840a5f::t_3c8101c048b6e0 77,620
+pg_search/tests/pg_regress/expected/join_duplicate_filter.out
+  s_7cff36b6840a5f::t_3c8101c048b6e0 49-55,110
+pg_search/tests/pg_regress/expected/join_lateral_unnest.out
+  s_7cff36b6840a5f::t_3c8101c048b6e0 290
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "348120bb1338279d49599d91047b2dba1feb706e",
+  "prompts": {},
+  "sessions": {
+    "s_7cff36b6840a5f": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1889f-2b0e-7a42-b25a-6ac22f8bd063",
+        "model": "gpt-6.1-terra"
+      },
+      "human_author": "devcool20 <sharmadivyanshu265@gmail.com>"
+    }
+  }
+}
